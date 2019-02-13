@@ -3,5 +3,5 @@ Find your accurate geolocation using selenium with Python.
 
 Most of the solutions found on the net involves finding your geolocation based on your IP Address. This gives you the geolocation of the server rather than that of your present location. 
 
-Use getlocation.py along with the suitable chromedriver for your chrome version to find the location based on your current location. 
+Use getlocation.py along with the suitable chromedriver for your chrome version to find the location based on your current location. If you are using Chrome version 71, the above chromedriver.exe will work. Otherwise, kindly download the suitable chrome driver from https://sites.google.com/a/chromium.org/chromedriver/downloads
 
