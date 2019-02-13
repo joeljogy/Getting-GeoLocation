@@ -16,5 +16,5 @@ def getLocation():
     latitude = [x.text for x in latitude]
     latitude = str(latitude[0])
     driver.quit()
-    return (latitude,longitude,'100')
-
+    return (latitude,longitude)
+print getLocation()
