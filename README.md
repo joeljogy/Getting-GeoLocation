@@ -9,3 +9,4 @@ PS:  Make sure that getlocation.py and the chromedriver.exe are located in the s
 # Requirements
 * Python 2.x
 * Selenium for Python
+* Suitable chromedriver.exe
