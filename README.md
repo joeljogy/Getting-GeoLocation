@@ -5,7 +5,7 @@ Use getlocation.py along with the suitable chromedriver for your chrome version 
 
 If you are using Chrome version 71, the above uploaded chromedriver.exe will work. Otherwise, kindly download the suitable chrome driver from https://sites.google.com/a/chromium.org/chromedriver/downloads
 
-Tutorial for this project can be found on https://link.medium.com/wmVyvu20iU
+Step-by-step tutorial for this project can be found on https://link.medium.com/wmVyvu20iU
 
 PS:  Make sure that getlocation.py and the chromedriver.exe are located in the same directory. chromedriver.exe is not to be executed but just stored in the same directory as your python file. 
 
