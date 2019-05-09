@@ -3,10 +3,10 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 
 def getLocation():
-    chrome_options = Options()
-    chrome_options.add_argument("--use-fake-ui-for-media-stream")
+    options = Options()
+    options.add_argument("--use-fake-ui-for-media-stream")
     timeout = 20
-    driver = webdriver.Chrome(chrome_options=chrome_options)
+    driver = webdriver.Chrome(options=options)
     driver.get("https://mycurrentlocation.net/")
     wait = WebDriverWait(driver, timeout)
     longitude = driver.find_elements_by_xpath('//*[@id="longitude"]')
@@ -17,4 +17,4 @@ def getLocation():
     latitude = str(latitude[0])
     driver.quit()
     return (latitude,longitude)
-print getLocation()
+print(getLocation())
