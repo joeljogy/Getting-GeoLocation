@@ -6,7 +6,7 @@ def getLocation():
     options = Options()
     options.add_argument("--use-fake-ui-for-media-stream")
     timeout = 20
-    driver = webdriver.Chrome(options=options)
+    driver = webdriver.Chrome(executable_path = './chromedriver.exe', chrome_options=options)
     driver.get("https://mycurrentlocation.net/")
     wait = WebDriverWait(driver, timeout)
     longitude = driver.find_elements_by_xpath('//*[@id="longitude"]')
