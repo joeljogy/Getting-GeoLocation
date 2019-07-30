@@ -10,6 +10,6 @@ Step-by-step tutorial for this project can be found on https://link.medium.com/w
 PS:  Make sure that getlocation.py and the chromedriver.exe are located in the same directory. chromedriver.exe is not to be executed but just stored in the same directory as your python file. 
 
 # Requirements
-* Python 2.x/Python 3
+* Python 3
 * Selenium for Python
 * Suitable chromedriver.exe
