@@ -7,7 +7,7 @@ If you are using Chrome version 71 and on Windows, the above uploaded chromedriv
 
 Step-by-step tutorial for this project can be found on https://link.medium.com/wmVyvu20iU
 
-PS:  Make sure that getlocation.py and the chromedriver.exe are located in the same directory. chromedriver.exe is not to be executed but just stored in the same directory as your python file. 
+PS:  Make sure that getlocation.py and the chromedriver.exe are located in the same directory. 'chromedriver.exe' is not to be executed but just stored in the same directory as your python file. 
 
 # Requirements
 * Python 3
